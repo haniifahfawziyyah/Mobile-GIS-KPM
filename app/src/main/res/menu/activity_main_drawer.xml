@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_info"
+            android:title="Tentang" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_datakpm"
+            android:icon="@drawable/ic_map"
+            android:title="Data KPM" />
+        <item
+            android:id="@+id/nav_grafikkpm"
+            android:icon="@drawable/ic_chart"
+            android:title="Grafik" />
+    </group>
+
+</menu>
